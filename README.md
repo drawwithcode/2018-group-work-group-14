@@ -1,5 +1,5 @@
 
-# Drink Don't Drive #
+# Just Breathe #
 
 ## Project idea ##
 Just Breathe is a university project, developed using p5.js library, for the course Creative Coding, attended at Politecnico di Milano.<br/>
