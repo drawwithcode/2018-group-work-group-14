@@ -30,5 +30,6 @@ Another difficult aspect was defining the degree of autenthicity of the whole ex
 ## Project developers ##
 Nicolò Barbieri<br/>
 Luca Draisci<br/>
-Il signor Longons
+Francesco Longoni
+
 
