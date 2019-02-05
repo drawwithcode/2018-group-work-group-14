@@ -2,13 +2,137 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0>
-    <style> body {padding: 0; margin: 0;} </style>
-    <script src="p5.min.js"></script>
-    <script src="addons/p5.dom.min.js"></script>
-    <script src="addons/p5.sound.min.js"></script>
-    <script src="sketch.js"></script>
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, maximum-scale=1, user-scalable=0"/>
+    <meta name="theme-color" content="#ff0000" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="#ff0000">
+
+    <style>
+
+    /* body {padding: 0; margin: 0;} html, body {overflow: hidden;} body { position: relative} */
+
+
+    </style>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
   </head>
   <body>
+    <a href="html/index.html">PLAY</a>
+    <a href="html/info.html">info</a><html lang="en">
+
+    <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+
+    <body>
+      <style>
+        @font-face {
+          font-family: GTPressuraProMono-Regular;
+          src: url(font/GTPressuraProMono-Regular.otf);
+        }
+
+        #body1 {
+        margin: 0 0 0 0;
+        background-color: #E5E5E5;
+        width: 100%
+        }
+
+    #boxhd {
+    background-color: #E5E5E5;
+    border-bottom: solid 0.4vw #1D1D1B;
+    height: 11.11vw;
+    width: 100%;
+    left:0px;
+    top: 0px;
+    opacity: 1;
+    position: fixed;
+    z-index: 1;
+    }
+
+        #header {
+          font-family:GTPressuraProMono-Regular;
+          padding: 18vw 0 13vw 0;
+          color:#1D1D1B;
+          font-size: 17vw;
+          text-align: left;
+        }
+
+        #textcontainer2 {
+          max-width: 84vw;
+          margin: 0vw 0.8vw 0vw 0.8vw;
+          border-bottom: solid 0.4vw #1D1D1B;
+          border-left: solid 0.4vw #1D1D1B;
+          border-right: solid 0.4vw #1D1D1B;
+          padding: 7.4vw 7.2vw 0vw 7.2vw;
+        }
+
+        #loghetto {
+          z-index: 2;
+          float: right;
+          margin: 2vw 7.4vw 0 0;
+          width: 18.5vw;
+        }
+
+        #textcontainer {
+          max-width: 84vw;
+          background-color: #E5E5E5;
+          margin: 0vw 0.8vw 0vw 0.8vw;
+          border-left: solid 0.4vw #1D1D1B;
+          border-right: solid 0.4vw #1D1D1B;
+          padding: 40vw 7.2vw 40vw 7.2vw;
+        }
+
+        .textmed{
+          font-family:GTPressuraProMono-Regular;
+          font-size: 5.9vw;
+          line-height: 7.4vw;
+          color: #1D1D1B;
+          position: relative;
+          text-align: center;
+
+          }
+
+        #boxfoot {
+          background-color: #E5E5E5;
+          border-top: solid 0.4vw #1D1D1B;
+          height: 11.11vw;
+          width: 100%;
+          left:0px;
+          bottom: 0px;
+          opacity: 1;
+          position: fixed;
+          z-index: 1;
+        }
+
+        #back {
+        color:#1D1D1B;
+        text-align:center;
+        margin-top: 2vw;
+        }
+
+      </style>
+      </head>
+
+      <body id="body1">
+
+        <div id="boxhd">
+          <img id="loghetto" src="imgs/loghetto.png"></img>
+        </div>
+
+    <div id="textcontainer2">
+    <div id="header">JUST<br>BREATHE.</div>
+    </div>
+        <div id="textcontainer">
+          <a href="html/game.html" style="text-decoration: none">
+          <div class="textmed">  PLAY </div>
+          </a>
+          <div id="boxfoot">
+          <a href="html/info.html" style="text-decoration: none"> <div class="textmed" id="back" >info → </div></a>
+        </div>
+        </div>
+
+
+      </body>
+
+    </html>
+
   </body>
 </html>
