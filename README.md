@@ -1,3 +1,5 @@
+![Lahore](/imgs/titolone_home.png)
+
 
 # Just Breathe #
 
@@ -31,5 +33,3 @@ Another difficult aspect was defining the degree of autenthicity of the whole ex
 Nicolò Barbieri<br/>
 Luca Draisci<br/>
 Francesco Longoni
-
-
