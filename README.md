@@ -13,13 +13,15 @@ Our project is built to work on a mobile device in portrait orientation. The use
 ![Lahore](/imgs/smartphone_play.gif)
 The vertical swipe is an interaction that simulates the act of breathing. The goal is to breathe enough oxygen to stay alive while pollution gradually makes it harder for us to do so.<br/>
 ![Lahore](/imgs/smartphone_go-2.gif)
-The shake is used to rappresent the act of coughing. </br>
+The shake is used to rappresent the act of coughing.</br>
 The continuous swipe required to stay alive lets you experience muscular fatigue while you play, making the interaction more authentic.</br>
 
 
 ## Graphic style ##
 ![Lahore](/imgs/loghetto.png)</br>
 We decided to use a minimalistic schemathic representation for our webapp. We had to find a graphic style that allowed the code to run smoothly on mobile devices, so we used a style that recalls that of formal documentation in the layout and a phisical laboratory in the colour scheme. This style alloewd us to run our application running as few grpahic elements as possible<br/>
+<br/>
+![Lahore](/imgs/smartphone_info.gif)
 
 ## Used libraries ##
 To develop our project we used the following libraries:
@@ -30,7 +32,10 @@ To develop our project we used the following libraries:
 * jquery.js
 
 ##Problems and Solutions##
-The first problem to fce was that of realistic physics, which was solved mainly trough the use of matter.js, wich helped us handle elements such as collisions and fluid viscosity with ease.
+The first problem to face was that of realistic physics, which was solved mainly trough the use of matter.js, wich helped us handle elements such as collisions and fluid viscosity.
+Matter.js was realy useful but hard to learn. It presented us several issues like not reading most of the arrays that used to create the differnt particles.</br>
+Our solution was to simplify our web app and reduce the nuber of particles and hard code most of the Events we used.</br>
+![Lahore](/imgs/codice_1.png)
 
 Another difficult aspect was defining the degree of autenthicity of the whole experience, which involved a brief study of our body parameters with and without pollution.
 
