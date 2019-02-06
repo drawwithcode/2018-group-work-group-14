@@ -190,9 +190,15 @@ var resetBreath = function() {
 }
 
 function deviceShaken() {
-  removeBar1();
-  removeBar2();
-  removeBar3();
+  if (bloodCat>3){
+    removeBar1();
+  }
+  if (bloodCat>9){
+    removeBar2();
+  }
+  if (bloodCat>15){
+    removeBar3();
+  }
   bloodCat = 0;
   added1 = false;
   added2 = false;
