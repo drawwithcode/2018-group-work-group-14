@@ -115,62 +115,6 @@ Engine.run(engine);
           }
 
       });
-
-
-  //Objects
-  lungsB.push(new LungB(0-wW/60, 0, wW/30, 2*wH));
-  lungsB.push(new LungB(wW + wW/60, 0, wW/30, 2*wH));
-  barCat0 = new BarCat(wW/2, wH*3.6/4, wW, wH/20);
-  barCat0Body = barCat0.body
-  World.add(world, barCat0Body);
-
-  // alveols
-  // for(i=0; i<10; i ++){
-  //   alveols.push(new Alveol(-wW/120 + wW/10*i, wH*3.9/4, wW/150))
-  // };
-}
-
-function updateTimer() {
-timer += 1;
-o = Math.round(50-(timer/4));
-bloodOxy -= Math.round(bloodOxy*0.2);
-if (Math.round(bloodOxy*0.2) <= 1) {bloodOxy --}
-p = Math.round(timer/6);
-if (bloodOxy <= 0) {
-  console.log('you lost');
-  clearInterval(myTimer);
-  window.location.href = '../html/gameOver.html'
-}
-//  console.log(bloodOxy);
-//  console.log(bloodCat);
-}
-
-function updateHeart() {
-heart ++;
-}
-
-//this value represents pollution
-var p;
-//this value represents oxygen
-var o;
-
-function touchMoved() {
-if(isTouched == false){
-for (i=0; i<5; i++) {
-  oxys.push(new Oxy(random(wW/2-wW/3,wW/2+wW/3), random(0, -wH/4), wW/60));
-}
-for (i=0; i<1; i++) {
-  co2s.push(new Co2(random(wW/2-wW/2.2,wW/2+wW/2.2 ), random(0, -wH/4), wW/20));
-}
-// catarrhs.push(new Catarrh(random(wW/2-wW/10,wW/2+wW/10), random(wH/16, wH*3.8/4), wW/50));
-isTouched=true;
-setTimeout(resetBreath, 2000)
-}
-}
-var resetBreath = function() {
-isTouched = false
-}
-
 function deviceShaken() {
 removeBar1();
 removeBar2();
