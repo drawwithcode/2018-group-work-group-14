@@ -174,7 +174,7 @@ var o;
 
 function touchMoved() {
   if(isTouched == false){
-  for (i=0; i<5; i++) {
+  for (i=0; i<6; i++) {
     oxys.push(new Oxy(random(wW/2-wW/3,wW/2+wW/3), random(0, -wH/4), wW/60));
   }
   for (i=0; i<1; i++) {
