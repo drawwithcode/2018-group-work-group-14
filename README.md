@@ -21,20 +21,24 @@ The continuous swipe required to stay alive lets you experience muscular fatigue
 ![Logo](/imgs/loghetto.png)</br>
 We decided to use a minimalistic schemathic representation for our webapp. We had to find a graphic style that allowed the code to run smoothly on mobile devices, so we used a style that recalls that of formal documentation in the layout and a phisical laboratory in the colour scheme. This style alloewd us to run our application running as few grpahic elements as possible<br/>
 <br/>
+![Logo](/imgs/info.png)</br>
+An other objective wa to keep the user always awear of what was going on in his lungs.<br/>
+So we implemented to bars that keep track of the Oxygen and Pollution that you have been breathing.<br/>
+
+<br/>
 ![GIF3](/imgs/smartphone_info.gif)
 
 ## Used libraries ##
 To develop our project we used the following libraries:
 
 * p5.js
-* p5.sound.js
 * matter.js
 * jquery.js
 
 ##Problems and Solutions##
 The first problem to face was that of realistic physics, which was solved mainly trough the use of matter.js, wich helped us handle elements such as collisions and fluid viscosity.
 Matter.js was realy useful but hard to learn. It presented us several issues like not reading most of the arrays and having difficulties at handlig external variables that we used to create the differnt particles.</br>
-Our solution was to simplify our web app and reduce the nuber of particles and hard code most of the Events we used.</br>
+Our solution was to simplify our web app and reduce the nuber of particles and hard-code most of the Events we used.</br>
 
 
 ``` javascript
