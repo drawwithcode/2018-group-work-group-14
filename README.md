@@ -35,10 +35,9 @@ To develop our project we used the following libraries:
 The first problem to face was that of realistic physics, which was solved mainly trough the use of matter.js, wich helped us handle elements such as collisions and fluid viscosity.
 Matter.js was realy useful but hard to learn. It presented us several issues like not reading most of the arrays and having difficulties at handlig external variables that we used to create the differnt particles.</br>
 Our solution was to simplify our web app and reduce the nuber of particles and hard code most of the Events we used.</br>
-![CODE1](/imgs/codice_1.png)
 
 
-``` python
+``` javascript
 //Engine setup
 engine = Engine.create();
 world = engine.world;
