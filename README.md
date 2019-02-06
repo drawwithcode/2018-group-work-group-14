@@ -6,13 +6,19 @@
 ## Project idea ##
 Just Breathe is a university project, developed using p5.js library, for the course Creative Coding, attended at Politecnico di Milano.<br/>
 The aim of this interactive app is to make people experience the effects of pollution on our body to become aware of its risks, as we believe the too often go unnoticed in our everyday life.<br/>
-For our experience we selected the main effect pollution has on our body: fatigue.</br>
+For our experience we selected the main effect pollution has on our body: fatigue.<br/>
 
 ## Interactions ##
-Our project is built to work on a mobile device in portrait orientation. The user can interact with the sketch only by swiping vertically. The vertical swipe is an interaction that simulates the act of breathing. The goal is to breathe enough oxygen to stay alive while pollution gradually makes it harder for us to do so.<br/>
-The continuous swipe rquired to stay alive lets you experience muscular fatigue while you play, making the interaction more authentic.</br>
+Our project is built to work on a mobile device in portrait orientation. The user can interact with the sketch by swiping vertically and shaking it.</br>
+![Lahore](/imgs/smartphone_play.gif)
+The vertical swipe is an interaction that simulates the act of breathing. The goal is to breathe enough oxygen to stay alive while pollution gradually makes it harder for us to do so.<br/>
+![Lahore](/imgs/smartphone_go-2.gif)
+The shake is used to rappresent the act of coughing. </br>
+The continuous swipe required to stay alive lets you experience muscular fatigue while you play, making the interaction more authentic.</br>
+
 
 ## Graphic style ##
+![Lahore](/imgs/loghetto.png)
 We decided to use a minimalistic schemathic representation for our webapp. We had to find a graphic style that allowed the code to run smoothly on mobile devices, so we used a style that recalls that of formal documentation in the layout and a phisical laboratory in the colour scheme. This style alloewd us to run our application running as few grpahic elements as possible<br/>
 
 ## Used libraries ##
