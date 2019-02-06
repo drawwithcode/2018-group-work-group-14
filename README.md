@@ -18,7 +18,7 @@ The continuous swipe required to stay alive lets you experience muscular fatigue
 
 
 ## Graphic style ##
-![Lahore](/imgs/loghetto.png)
+![Lahore](/imgs/loghetto.png)</br>
 We decided to use a minimalistic schemathic representation for our webapp. We had to find a graphic style that allowed the code to run smoothly on mobile devices, so we used a style that recalls that of formal documentation in the layout and a phisical laboratory in the colour scheme. This style alloewd us to run our application running as few grpahic elements as possible<br/>
 
 ## Used libraries ##
